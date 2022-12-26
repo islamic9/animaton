@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../anime.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.box {
+    margin: 63px 52px;
+    max-width: 54px;
+    min-height: 55px;
+    background-color: rgb(0, 0, 0);
+    animation: animeBox 15s 1s linear;
+    padding-top: 28px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+@keyframes animeBox{
+    10% {
+        transform: translate(220px);
+    }
+    20% {
+        transform: translate(220px, 250px);
+    }
+    30% {
+        transform: translate(770px, 250px);
+    }
+    40% {
+        transform: translate(770px, 380px);
+    }
+    50% {
+        transform: translate(480px, 380px);
+    }
+    60% {
+        transform: translate(480px, 320px)
+    } 
+    70% {
+        transform: translate(200px, 320px);
+    }
+    80% {
+        transform: translate(100px, 200px);
+    }
+    90% {
+        transform: translate(0, 220px);
+    }  
+    
+}
